@@ -37,25 +37,34 @@ Hello, I am Harsh and I am a Learner
     Enter favourite tool: shell
     Hello Harsh, you favourite tool is shell
 
-##  TASK 4
-```
-</> Bash
+## TASK 4
 
+### check_number.sh
+
+```bash
 cat check_number.sh
 #!/bin/bash
-#
+
 read -p "Enter the number: " Number
 
-    if ((Number > 0)); then
-        echo "positive"
-    elif ((Number < 0)); then
-        echo "negative"
-    else
-        echo "zero"
-    fi
+if ((Number > 0)); then
+    echo "positive"
+elif ((Number < 0)); then
+    echo "negative"
+else
+    echo "zero"
+fi
 ```
--   ./check_number.sh
-    Enter the number: 2
-    positive
+
+### Run
+```bash
+./check_number.sh
+```
+
+### Output
+```
+Enter the number: 2
+positive
+```
 
 ## TASK 6

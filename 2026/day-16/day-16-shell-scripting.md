@@ -40,9 +40,10 @@ Hello, I am Harsh and I am a Learner
 ##  TASK 4
 
 -   cat check_number.sh
-    #!/bin/bash
-    #
-    read -p "Enter the number: " Number
+---
+#!/bin/bash
+#
+read -p "Enter the number: " Number
 
     if ((Number > 0)); then
         echo "positive"

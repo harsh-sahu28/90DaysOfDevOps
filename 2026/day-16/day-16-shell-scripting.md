@@ -38,6 +38,7 @@ Hello, I am Harsh and I am a Learner
     Hello Harsh, you favourite tool is shell
 
 ##  TASK 4
+```
 </> Bash
 
 cat check_number.sh
@@ -52,7 +53,7 @@ read -p "Enter the number: " Number
     else
         echo "zero"
     fi
-
+```
 -   ./check_number.sh
     Enter the number: 2
     positive

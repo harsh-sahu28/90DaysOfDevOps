@@ -1,16 +1,22 @@
 # Day 16 – Shell Scripting Basics
 
 ## TASK 1
+
+```bash
 -   cat hello.sh
     #!/bin/bash
 
     echo "Hello, DevOps!"
+```
+
+```bash
 -   sudo chmod +x hello.sh  # making it executable
 -   ./hello.sh    >> running the shell script
 Hello, DevOps!
+```
 
 ## TASK 2
-
+```bash
 -   cat variables.sh
     #!/bin/bash
 
@@ -18,12 +24,14 @@ Hello, DevOps!
     ROLE="Learner"
 
     echo "Hello, I am $NAME and I am a $ROLE"
+```
 
+```bash
 -   ./variables.sh
 Hello, I am Harsh and I am a Learner
-
+```
 ## TASK 3
-
+```bash
 -   cat greet.sh
     #!/bin/bash
     #
@@ -31,11 +39,13 @@ Hello, I am Harsh and I am a Learner
     read -p "Enter favourite tool: " TOOL
 
     echo "Hello $NAME, you favourite tool is $TOOL "
-
--   ./greet.sh
-    Enter name: Harsh
-    Enter favourite tool: shell
-    Hello Harsh, you favourite tool is shell
+```
+```bash
+./greet.sh
+Enter name: Harsh
+Enter favourite tool: shell
+Hello Harsh, you favourite tool is shell
+```
 
 ## TASK 4
 

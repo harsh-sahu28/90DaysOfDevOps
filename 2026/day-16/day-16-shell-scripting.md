@@ -38,9 +38,9 @@ Hello, I am Harsh and I am a Learner
     Hello Harsh, you favourite tool is shell
 
 ##  TASK 4
+</> Bash
 
--   cat check_number.sh
----
+cat check_number.sh
 #!/bin/bash
 #
 read -p "Enter the number: " Number
